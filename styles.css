@@ -6,7 +6,7 @@ All pages content
     - Icon
 */
 .fundo {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(15, 15, 15);
 }
 #headdiv {
     margin: auto;
@@ -23,44 +23,76 @@ All pages content
 .headbutton {
     display: inline-block;
     color: rgb(0, 0, 0);
-    background-color: rgb(255, 140, 46);
-    border: groove 7px;
-    border-color: rgb(255, 183, 0);
+    background-color: rgb(255, 174, 0);
+    border: groove 6px;
+    border-color: rgb(255, 196, 0);
     height: 12%;
     width: 12%;
     font-size: 20px;
     border-radius: 1px;
     font-family: Times;
     position: relative;
-    top: 120px;
+    top: 100px;
 }
 .headbutton:hover {
     display: inline-block;
     color: rgb(0, 0, 0);
-    background-color: rgb(255, 158, 79);
-    border: groove 7px;
-    border-color: rgb(255, 183, 0);
+    background-color: rgb(255, 213, 124);
+    border: groove 6px;
+    border-color: rgb(255, 221, 108);
     height: 12%;
     width: 12%;
     font-size: 20px;
     border-radius: 1px;
     font-family: Times;
     position: relative;
-    top: 120px;
+    top: 100px;
     cursor: pointer;
     transform: scale(1.01);
 }
 #icon {
     display: block;
     margin: auto;
+    max-width: 50%;
     position: static;
-    width: 200px;
+    width: 10%;
 }
-#icon:hover {
-    display: block;
+#headip {
     margin: auto;
-    position: static;
-    width: 200px;
+    position: relative;
+    bottom: 50%;
+    left: 20%;
+    width: 50%;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 2px 2px 0 black, -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black;
+}
+#headip:hover {
+    margin: auto;
+    position: relative;
+    bottom: 50%;
+    left: 20%;
+    width: 50%;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 2px 2px 0 black, -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+#cubecave-net {
+    font-size: 14px;
+    color: rgb(255, 187, 0);
+    font-weight: bold;
+    text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 2px 2px 0 black, -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black;
+}
+#cubecave-net:hover {
+    font-size: 14px;
+    color: rgb(255, 187, 0);
+    font-weight: bold;
+    text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 2px 2px 0 black, -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black;
+    cursor: pointer;
     transform: scale(1.1);
 }
 
@@ -69,15 +101,28 @@ Home page content
     - insert page content here
 */
 #home-div {
-    background-color: rgb(70, 70, 70);
+    background-color: rgb(82, 82, 82);
     margin: auto;
     max-width: 50%;
-    height: 1000px;
+    height: auto;
     padding: 10px;
     border-radius: 5px;
     font-family: Arial;
     font-size: 16px;
     color: rgb(255, 255, 255);
-    border: groove 7px;
-    border-color: rgb(255, 183, 0);
+    border: groove 8px;
+    border-color: rgb(255, 196, 0);
+}
+#home-title {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Times;
+    position: relative;
+    left: 20px;
+}
+#home-text {
+    font-size: 15px;
+    font-family: Times;
+    position: relative;
+    left: 20px;
 }
