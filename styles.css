@@ -10,55 +10,55 @@ All pages content
 }
 #headdiv {
     margin: auto;
-    width: 50%;
+    max-width: 100%;
+    height: 400px;
     padding: 10px;
-    word-spacing: 10px;
+    word-spacing: -2px;
     text-align: center;
-    height: 240px;
     border-radius: 5px;
-    background-image: url("/images/headbackground.jpg");
-    background-position: top;
+    background-image: url("/images/headbackground.png");
+    background-position: center;
     background-repeat: no-repeat;
 }
 .headbutton {
     display: inline-block;
-    color: rgb(255, 255, 255);
-    background-color: rgb(175, 79, 0);
-    font-weight: bold;
-    border: groove;
-    border-color: rgb(238, 171, 0);
-    height: 30px;
-    width: 100px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 140, 46);
+    border: groove 7px;
+    border-color: rgb(255, 183, 0);
+    height: 12%;
+    width: 12%;
     font-size: 20px;
-    border-radius: 5px;
-    font-family: Arial;
+    border-radius: 1px;
+    font-family: Times;
+    position: relative;
+    top: 120px;
 }
 .headbutton:hover {
     display: inline-block;
-    color: rgb(255, 255, 255);
-    background-color: rgb(133, 53, 0);
-    font-weight: bold;
-    border: groove;
-    border-color: rgb(163, 117, 0);
-    height: 30px;
-    width: 100px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 158, 79);
+    border: groove 7px;
+    border-color: rgb(255, 183, 0);
+    height: 12%;
+    width: 12%;
     font-size: 20px;
-    border-radius: 5px;
-    font-family: Arial;
+    border-radius: 1px;
+    font-family: Times;
+    position: relative;
+    top: 120px;
     cursor: pointer;
-    transform: scale(1.1);
+    transform: scale(1.01);
 }
 #icon {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     position: static;
     width: 200px;
 }
 #icon:hover {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     position: static;
     width: 200px;
     transform: scale(1.1);
@@ -71,11 +71,13 @@ Home page content
 #home-div {
     background-color: rgb(70, 70, 70);
     margin: auto;
-    width: 50%;
+    max-width: 50%;
     height: 1000px;
     padding: 10px;
     border-radius: 5px;
     font-family: Arial;
     font-size: 16px;
     color: rgb(255, 255, 255);
+    border: groove 7px;
+    border-color: rgb(255, 183, 0);
 }
