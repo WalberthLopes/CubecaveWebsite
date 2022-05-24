@@ -66,6 +66,7 @@ All pages content
     font-size: 14px;
     color: rgb(255, 255, 255);
     font-weight: bold;
+    font-family: 'Amaranth';
     text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 2px 2px 0 black, -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black;
 }
 #headip:hover {
@@ -77,6 +78,7 @@ All pages content
     font-size: 14px;
     color: rgb(255, 255, 255);
     font-weight: bold;
+    font-family: 'Amaranth';
     text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 2px 2px 0 black, -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black;
     cursor: pointer;
     transform: scale(1.1);
@@ -102,7 +104,7 @@ All pages content
 Home page content
     - insert page content here
 */
-#home-div {
+#card-hover {
     background-color: rgb(255, 255, 255);
     margin: auto;
     width: 60%;
@@ -115,14 +117,36 @@ Home page content
     border: groove 8px;
     border-color: rgb(255, 196, 0);
 }
-#home-title {
-    font-size: 20px;
+
+.card-background {
+    background-color: rgb(221, 221, 221);
+}
+#card-point {
+    color: rgb(221, 221, 221);
+}
+
+.card-title {
     font-family: 'Amaranth';
     position: relative;
     left: 20px;
 }
-#home-text {
-    font-size: 15px;
+.card-description {
+    font-family: 'Amaranth';
+    position: relative;
+    left: 20px;
+}
+.card-image {
+    width: 60%;
+    height: 50%;
+    position: relative;
+    left: 20px;
+}
+.card-footer {
+    font-family: 'Amaranth';
+    position: relative;
+    left: 20px;
+}
+.card-text {
     font-family: 'Amaranth';
     position: relative;
     left: 20px;
