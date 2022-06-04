@@ -7,8 +7,7 @@
     <link rel="stylesheet" href="/assets/css/styles.css">
     <link href='https://fonts.googleapis.com/css?family=Alegreya SC' rel='stylesheet'>
     <link rel="icon" type="image/x-icon" href="/assets/images/icon.png" />
-    <link rel="stylesheet" href="/assets/css/forum.css">
-    <title>Cube Cave - Minecraft Server</title>
+    <title>CubeCave - Minecraft Server</title>
 </head>
 <body>
     <div class="container" id="template-areas">
@@ -16,21 +15,9 @@
             <img id="header-logo" src="/assets/images/cubecave.png">
             <button id="ip-button" onclick="copyIp()">Play Now</button>
             <p id="header-ip" onclick="copyIp()">SERVER IP: MC.CUBECAVE.NET</p>
-            <button id="header-button" onclick="window.location.href='/index.html'">Home</button>
-            <button id="header-button" onclick="window.location.href='/index.html'">Wiki</button>
-            <button id="header-button" onclick="window.location.href='/index.html'">Regras</button>
-            <button id="header-button" onclick="window.location.href='/forum.html'">Fórum</button>
+            <button id="header-button" onclick="window.location.href='/index.php'">Home</button>
+            <button id="header-button" onclick="window.location.href='/index.php'">Wiki</button>
+            <button id="header-button" onclick="window.location.href='/index.php'">Regras</button>
+            <button id="header-button" onclick="window.location.href='/forum.php'">Fórum</button>
             <button id="header-button" onclick="window.location.href='https://cubecave.lojasquare.net'">Loja</button>
         </div>
-        <div id="hover">
-            <div class="postsContainer">
-                post container
-            </div>
-        </div>
-        <div id="footer">
-            3
-        </div>
-    </div>
-    <script src="/assets/javascript/main.js"></script>
-</body>
-</html>
