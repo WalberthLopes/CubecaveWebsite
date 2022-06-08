@@ -4,57 +4,70 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link href='https://fonts.googleapis.com/css?family=Alegreya SC' rel='stylesheet'>
     <link rel="icon" type="image/x-icon" href="/assets/images/icon.png" />
-    <title>Cube Cave - Minecraft Server</title>
+    <title>CubeCave - Minecraft Server</title>
 </head>
 <body>
-    <div class="container" id="template-areas">
-        <div id="header">
-            <img id="header-logo" src="/assets/images/cubecave.png">
-            <button id="ip-button" onclick="copyIp()">Play Now</button>
-            <p id="header-ip" onclick="copyIp()">SERVER IP: MC.CUBECAVE.NET</p>
-            <button id="header-button" onclick="window.location.href='/index.html'">Home</button>
-            <button id="header-button" onclick="window.location.href='/index.html'">Wiki</button>
-            <button id="header-button" onclick="window.location.href='/index.html'">Regras</button>
-            <button id="header-button" onclick="window.location.href='/forum.html'">Fórum</button>
-            <button id="header-button" onclick="window.location.href='https://cubecave.lojasquare.net'">Loja</button>
+    <div class="loginContainer">
+        <div class="loginButtons">
+            <button class="loginButton" onclick="missPage()">SINGUP</button>
+            <button class="loginButton" onclick="missPage()">LOGIN</button>
         </div>
-        <div id="hover">
-            <p class="cards-container">
-                <span id="card">
-                    <span id="block-card">
-                        <span id="block-title">
-                            <span id="card-title">
-                                Bloodmoon Update, Maio de 2022
-                            </span>
-                        </span>
-                        <img id="card-banner" src="/assets/images/bloodmoon.png">
-                        <span id="block-text">
-                            <span id="card-text">
-                                A cada 25 dias do mine surgirá uma bloodmoon e você enfrentará ondas de monstros
-                                durante uma noite longa e cheia de perigos! Você consegue sair vivo dessa?
-                            </span>
-                        </span>
-                    </span>
-                    <br><br>
-                </span>
-                <span id="minicard">
-                    <span id="block-image">
-                        <img src="/assets/images/minicard.png">
-                        <span id="block-text-minicard">
-                            <span id="minicard-text">
+    </div>
+    <div class="container">
+        <div class="headerContainer">
+            <img class="headerIpImg" src="/assets/images/cubecave.png">
+            <button class="headerIpButton" onclick="copyIp()">JOGAR</button>
+            <p class="headerIpText" onclick="copyIp()">SERVER IP: MC.CUBECAVE.NET</p>
+            <button class="headerMenuButton" onclick="window.location.href='/index.html'">Home</button>
+            <button class="headerMenuButton" onclick="window.location.href='/index.html'">Wiki</button>
+            <button class="headerMenuButton" onclick="window.location.href='/index.html'">Regras</button>
+            <button class="headerMenuButton" onclick="window.location.href='/forum.html'">Fórum</button>
+            <button class="headerMenuButton" onclick="window.location.href='https://cubecave.lojasquare.net'">Loja</button>
+        </div>
+        <div class="bodyContainer">
+            <div class="bodyCardsContainer">
+                <!-- MAIN CARDS -->
+                <div class="bodyMainCardContainer">
+                    <div class="bodyMainCard">
+                        <div class="bodyMainCardHeader">
+                            <div class="bodyMainCardTitle">
+                                Bloodmoon Update, maio de 2022
+                            </div>
+                        </div>
+                        <div class="bodyMainCardImg">
+                            i
+                        </div>
+                        <div class="bodyMainCardFooter">
+                            <div class="bodyMainCardText">
+                                A cada 25 dias do mine surgirá uma bloodmoon e você enfrentará ondas de monstros durante uma noite longa e cheia de perigos! Você consegue sair vivo dessa?
+                            </div>
+                            <button class="bodyMainCardSubText" onclick="window.location.href=''">Acesse e saiba mais!</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- SIDE CARDS -->
+                <div class="bodySideCardContainer">
+                    <div class="bodySideCard">
+                        <div class="bodySideCardTextContainer">
+                            <div class="bodySideCardText">
                                 Melhore sua conta!
-                            </span>
-                            <button id="minicard-button" onclick="window.location.href='https://cubecave.lojasquare.net'">ABRIR LOJA</button>
-                        </span>
-                    </span>
-                </span>
-            </p>
+                            </div>
+                            <button class="bodySideCardButton" onclick="window.location.href='https://cubecave.lojasquare.net'">ABRIR LOJA</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div id="footer">
-            3
+        <div class="footerContainer">
+            <div class="footerInfoContainer">
+                <img src="/assets/images/icon.png">
+                <div class="footerText">
+                    © 2022 Cubecave. Todos os direitos reservados.
+                </div>
+            </div>
         </div>
     </div>
     <script src="/assets/javascript/main.js"></script>
