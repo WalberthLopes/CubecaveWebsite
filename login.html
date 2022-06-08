@@ -4,27 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link href='https://fonts.googleapis.com/css?family=Alegreya SC' rel='stylesheet'>
-    <link rel="stylesheet" href="/assets/css/login.css">
-    <title>CubeCave - Join</title>
+    <link rel="icon" type="image/x-icon" href="/assets/images/icon.png" />
+    <title>CubeCave - Login</title>
 </head>
 <body>
+    <div class="loginContainer">
+        <div class="loginButtons">
+            <button class="loginButton" onclick="missPage()">SINGUP</button>
+            <button class="loginButton" onclick="missPage()">LOGIN</button>
+        </div>
+    </div>
     <div class="container">
-        <form class="loginForm">
-            <h1>Login</h1>
-            <input type="text" class="formInput" autofocus placeholder="Username">
-            <input type="password" class="formInput" autofocus placeholder="Senha">
-            <button class="loginButton formInput" type="submit">Entrar</button>
-            <p class="forgotPassword">Esqueceu sua senha?</p>
-        </form>
-        <form class="createAccountForm">
-            <h1>Criar conta</h1>
-            <p id="labelError">Sua aventura vai começar!</p>
-            <input type="text" id="createUsername" class="formInput" autofocus placeholder="Username">
-            <input type="password" id="createPassword" class="formInput" autofocus placeholder="Senha">
-            <input type="password" id="passwordConfirm" class="formInput" autofocus placeholder="Confirmar senha">
-            <button class="createAccountButton formInput" onclick="cadastrar()">Criar conta</button>
-        </form>
+        <div class="headerContainer">
+            <img class="headerIpImg" src="/assets/images/cubecave.png">
+            <button class="headerIpButton" onclick="copyIp()">JOGAR</button>
+            <p class="headerIpText" onclick="copyIp()">SERVER IP: MC.CUBECAVE.NET</p>
+            <button class="headerMenuButton" onclick="window.location.href='/index.html'">Home</button>
+            <button class="headerMenuButton" onclick="window.location.href='/index.html'">Wiki</button>
+            <button class="headerMenuButton" onclick="window.location.href='/index.html'">Regras</button>
+            <button class="headerMenuButton" onclick="window.location.href='/forum.html'">Fórum</button>
+            <button class="headerMenuButton" onclick="window.location.href='https://cubecave.lojasquare.net'">Loja</button>
+        </div>
+        <div class="bodyContainer">
+            2
+        </div>
+        <div class="footerContainer">
+            <div class="footerInfoContainer">
+                <img src="/assets/images/icon.png">
+                <div class="footerText">
+                    © 2022 Cubecave. Todos os direitos reservados.
+                </div>
+            </div>
+        </div>
     </div>
     <script src="/assets/javascript/main.js"></script>
 </body>
