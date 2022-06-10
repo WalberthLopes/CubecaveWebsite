@@ -1,19 +1,31 @@
+<?php
+    session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/style.css?v=<?php echo time(); ?>">
     <link href='https://fonts.googleapis.com/css?family=Alegreya SC' rel='stylesheet'>
     <link rel="icon" type="image/x-icon" href="/assets/images/icon.png" />
-    <title>CubeCave - Minecraft Server</title>
+    <title>Cubecave - Minecraft Server</title>
 </head>
 <body>
     <div class="loginContainer">
         <div class="loginButtons">
-            <button class="loginButton" onclick="missPage()">SINGUP</button>
-            <button class="loginButton" onclick="missPage()">LOGIN</button>
+            <?php
+                if (isset($_SESSION["useruid"])) {
+                    echo "<button class='loginButton'><a href='/profile.php'>PERFIL</a></button>";
+                    echo "<button class='loginButton'><a href='assets/includes/logout.inc.php'>LOGOUT</a></button>";
+                }
+                else {
+                    echo "<button class='loginButton'><a href='/signup.php'>SIGNUP</a></button>";
+                    echo "<button class='loginButton'><a href='/login.php'>LOGIN</a></button>";
+                }
+            ?>
         </div>
     </div>
     <div class="container">
@@ -21,9 +33,9 @@
             <img class="headerIpImg" src="/assets/images/cubecave.png">
             <button class="headerIpButton" onclick="copyIp()">JOGAR</button>
             <p class="headerIpText" onclick="copyIp()">SERVER IP: MC.CUBECAVE.NET</p>
-            <button class="headerMenuButton" onclick="window.location.href='/index.html'">Home</button>
-            <button class="headerMenuButton" onclick="window.location.href='/index.html'">Wiki</button>
-            <button class="headerMenuButton" onclick="window.location.href='/index.html'">Regras</button>
+            <button class="headerMenuButton" onclick="window.location.href='/index.php'">Home</button>
+            <button class="headerMenuButton" onclick="window.location.href='/index.php'">Wiki</button>
+            <button class="headerMenuButton" onclick="window.location.href='/index.php'">Regras</button>
             <button class="headerMenuButton" onclick="window.location.href='/forum.html'">Fórum</button>
             <button class="headerMenuButton" onclick="window.location.href='https://cubecave.lojasquare.net'">Loja</button>
         </div>
