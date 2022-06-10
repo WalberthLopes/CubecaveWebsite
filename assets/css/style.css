@@ -2,6 +2,10 @@ body {
     background-color: rgb(27, 27, 27);
 }
 
+a {
+    text-decoration: none;
+}
+
 .loginContainer {
     color: white;
     height: 30px;
@@ -20,6 +24,8 @@ body {
     width: 100px;
     height: 25px;
     padding: 0 60px;
+    margin-left: 3px;
+    margin-right: 3px;
     outline: none;
     border: none;
     background-color: rgb(255, 183, 0);
@@ -361,4 +367,229 @@ body {
 .footerText {
     color: white;
     font-family: 'Alegreya SC';
+}
+
+/*                      */
+/*      LOGIN PAGE      */
+/*                      */
+
+.loginBoxContainer {
+    border: 6px ridge rgb(138, 146, 143);
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    background-color: rgb(27, 27, 27);
+    text-align: center;
+    color: white;
+    font-family: 'Alegreya SC';
+}
+
+.loginBoxInput {
+    display: block;
+    width: 250px;
+    height: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px ridge rgb(255, 183, 0);
+    font-family: 'Alegreya SC';
+}
+
+.loginBoxButton {
+    width: 200px;
+    height: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 0 60px;
+    outline: none;
+    border: none;
+    background-color: rgb(255, 183, 0);
+    color: rgb(0, 0, 0);
+    letter-spacing: 1px;
+    font-size: 18px;
+    padding: 0;
+    overflow: visible;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 6px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .7);
+    transition: color .1s ease-in .1s, transform .185s ease-in, box-shadow .15s ease-in;
+    font-family: 'Alegreya SC';
+}
+
+.loginBoxButton:hover {
+    width: 200px;
+    height: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 0 60px;
+    outline: none;
+    border: none;
+    background-color: rgb(255, 183, 0);
+    color: rgb(0, 0, 0);
+    letter-spacing: 1px;
+    font-size: 18px;
+    padding: 0;
+    overflow: visible;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 6px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .7);
+    transition: color .1s ease-in .1s, transform .185s ease-in, box-shadow .15s ease-in;
+    font-family: 'Alegreya SC';
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+/*                       */
+/*      SIGNUP PAGE      */
+/*                       */
+
+.signupBoxContainer {
+    border: 6px ridge rgb(138, 146, 143);
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    background-color: rgb(27, 27, 27);
+    text-align: center;
+    color: white;
+    font-family: 'Alegreya SC';
+}
+
+.signupBoxInput {
+    display: block;
+    width: 250px;
+    height: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px ridge rgb(255, 183, 0);
+    font-family: 'Alegreya SC';
+}
+
+.signupBoxButton {
+    width: 200px;
+    height: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 0 60px;
+    outline: none;
+    border: none;
+    background-color: rgb(255, 183, 0);
+    color: rgb(0, 0, 0);
+    letter-spacing: 1px;
+    font-size: 18px;
+    padding: 0;
+    overflow: visible;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 6px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .7);
+    transition: color .1s ease-in .1s, transform .185s ease-in, box-shadow .15s ease-in;
+    font-family: 'Alegreya SC';
+}
+
+.signupBoxButton:hover {
+    width: 200px;
+    height: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 0 60px;
+    outline: none;
+    border: none;
+    background-color: rgb(255, 183, 0);
+    color: rgb(0, 0, 0);
+    letter-spacing: 1px;
+    font-size: 18px;
+    padding: 0;
+    overflow: visible;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 6px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .7);
+    transition: color .1s ease-in .1s, transform .185s ease-in, box-shadow .15s ease-in;
+    font-family: 'Alegreya SC';
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.suportFormContainer {
+    border: 6px ridge rgb(138, 146, 143);
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: rgb(27, 27, 27);
+    text-align: center;
+    color: white;
+    font-family: 'Alegreya SC';
+}
+
+.suportFormText {
+    display: block;
+    width: 600px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px ridge rgb(255, 183, 0);
+    font-family: 'Alegreya SC';
+}
+
+.suportFormInput {
+    display: block;
+    width: 600px;
+    height: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px ridge rgb(255, 183, 0);
+    font-family: 'Alegreya SC';
+}
+
+.suportFormButton {
+    width: 200px;
+    height: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 0 60px;
+    outline: none;
+    border: none;
+    background-color: rgb(255, 183, 0);
+    color: rgb(0, 0, 0);
+    letter-spacing: 1px;
+    font-size: 18px;
+    padding: 0;
+    overflow: visible;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 6px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .7);
+    transition: color .1s ease-in .1s, transform .185s ease-in, box-shadow .15s ease-in;
+    font-family: 'Alegreya SC';
+}
+
+.suportFormButton:hover {
+    width: 200px;
+    height: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 0 60px;
+    outline: none;
+    border: none;
+    background-color: rgb(255, 183, 0);
+    color: rgb(0, 0, 0);
+    letter-spacing: 1px;
+    font-size: 18px;
+    padding: 0;
+    overflow: visible;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 6px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .7);
+    transition: color .1s ease-in .1s, transform .185s ease-in, box-shadow .15s ease-in;
+    font-family: 'Alegreya SC';
+    cursor: pointer;
+    transform: scale(1.1);
 }
