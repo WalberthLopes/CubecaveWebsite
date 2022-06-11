@@ -593,3 +593,8 @@ a {
     cursor: pointer;
     transform: scale(1.1);
 }
+
+.errorContainer {
+    color: red;
+    font-family: 'Alegreya SC';
+}
