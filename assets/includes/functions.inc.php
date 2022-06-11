@@ -121,9 +121,9 @@ function loginUser($conn, $username, $pwd) {
     }
 }
 
-function emptyInputSuport($email, $username, $subject, $message) {
+function emptyInputSuport($email, $username, $discord, $subject, $message) {
     $result;
-    if (empty($email) || empty($username) || empty($subject) || empty($message)) {
+    if (empty($email) || empty($username) || empty($discord) || empty($subject) || empty($message)) {
         $result = true;
     }
     else {

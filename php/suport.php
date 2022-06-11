@@ -3,17 +3,36 @@
 ?>
         <div class="bodyContainer">
             <div class="suportFormContainer">
+                <div class="errorContainer">
+                    
+                <?php
+                    if (isset($_GET["error"])) {
+                        if ($_GET["error"] == "emptyinput") {
+                            echo "<p>Preencha todos os campos.</p>";
+                        }
+                        else if ($_GET["error"]  == "notlogedin") {
+                            echo "<p>Você precisa estar logado para abrir um chamado.</p>";
+                        }
+                        else if ($_GET["error" == "mailsend"]) {
+                            echo "<p>Sua mensagem foi enviada!</p>";
+                        }
+                    }
+                ?>
+            
+                </div>
                 <h1 class="suportFormTitle">Entre em contato</h1>
-                <form action="assets/includes/suport.inc.php" class="suportForm">
+                <p>Nosso suporte retornará o contato em seu e-mail em até 24 horas.</p>
+                <form action="assets/includes/suport.inc.php" class="suportForm" method="post">
                     <input type="text" name="email" placeholder="Email" class="suportFormInput">
                     <br>
                     <input type="text" name="username" placeholder="Nick" class="suportFormInput">
+                    <br>
+                    <input type="text" name="discord" placeholder="Discord" class="suportFormInput">
                     <br>
                     <input type="text" name="subject" placeholder="Assunto" class="suportFormInput">
                     <br>
                     <textarea name="message" cols="30" rows="10" class="suportFormText">Descreva seu problema...</textarea>
                     <button type="submit" name="submit" class="suportFormButton">ENVIAR</button>
-                    <p>Nosso suporte retornará o contato em seu e-mail em até 24 horas.</p>
                 </form>
             </div>
         </div>

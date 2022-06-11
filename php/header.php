@@ -36,6 +36,6 @@
             <button class="headerMenuButton" onclick="window.location.href='/index.php'">Home</button>
             <button class="headerMenuButton" onclick="window.location.href='/index.php'">Wiki</button>
             <button class="headerMenuButton" onclick="window.location.href='/index.php'">Regras</button>
-            <button class="headerMenuButton" onclick="window.location.href='/forum.html'">Fórum</button>
+            <button class="headerMenuButton" onclick="window.location.href='/suport.php'">Suporte</button>
             <button class="headerMenuButton" onclick="window.location.href='https://cubecave.lojasquare.net'">Loja</button>
         </div>

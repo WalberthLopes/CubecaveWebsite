@@ -3,22 +3,8 @@
 ?>
         <div class="bodyContainer">
             <div class="signupBoxContainer">
-                <h1 class="signupBoxTitle">
-                    SignUp
-                </h1>
-                <form action="assets/includes/signup.inc.php" method="post">
-                    <input type="text" name="email" class="signupBoxInput" placeholder="Email">
-                    <br>
-                    <input type="text" name="name" class="signupBoxInput" placeholder="Nome">
-                    <br>
-                    <input type="text" name="uid" class="signupBoxInput" placeholder="Nick">
-                    <br>
-                    <input type="password" name="pwd" class="signupBoxInput" placeholder="Senha">
-                    <br>
-                    <input type="password" name="pwdconfirm" class="signupBoxInput" placeholder="Confirmar senha">
-                    <button class="signupBoxButton" type="submit" name="submit">Criar</button>
-                </form>
-
+                <div class="errorContainer">
+                    
                 <?php
                     if (isset($_GET["error"])) {
                         if ($_GET["error"] == "emptyinput") {
@@ -45,6 +31,22 @@
                     }
                 ?>
             
+                </div>
+                <h1 class="signupBoxTitle">
+                    SignUp
+                </h1>
+                <form action="assets/includes/signup.inc.php" method="post">
+                    <input type="text" name="email" class="signupBoxInput" placeholder="Email">
+                    <br>
+                    <input type="text" name="name" class="signupBoxInput" placeholder="Nome">
+                    <br>
+                    <input type="text" name="uid" class="signupBoxInput" placeholder="Nick">
+                    <br>
+                    <input type="password" name="pwd" class="signupBoxInput" placeholder="Senha">
+                    <br>
+                    <input type="password" name="pwdconfirm" class="signupBoxInput" placeholder="Confirmar senha">
+                    <button class="signupBoxButton" type="submit" name="submit">Criar</button>
+                </form>
             </div>
         </div>
         <?php
