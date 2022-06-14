@@ -1,4 +1,4 @@
-# Cube Caves's Website
+# Cube Cave's Website
 
-> Check how it looks: https://www.cubecave.net
+> Come and take a look: https://www.cubecave.net
  

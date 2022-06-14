@@ -5,7 +5,3 @@ function copyIp() {
     })
 
 };
-
-function missPage() {
-    alert("SISTEMA DE LOGIN EM BREVE...")
-};
