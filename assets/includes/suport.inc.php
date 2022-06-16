@@ -8,8 +8,8 @@ if (isset($_POST["submit"])) {
     $subject = $_POST["subject"];
     $message = $_POST["message"];
 
-    $mailTo = "contato@walberth.com";
-    $headers = "Chamado de: ". $email;
+    $mailTo = "contato@cubecave.net";
+    $headers = $email. "\r\n". $email;
     $txt = "Mensagem de: ". $username . " | ". $discord . ".\n\n". $message; 
 
     require_once 'dbh.inc.php';

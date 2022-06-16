@@ -598,3 +598,42 @@ a {
     color: red;
     font-family: 'Alegreya SC';
 }
+
+.rulesContainer {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 1100px;
+    height: fit-content;
+}
+
+.ruleHeader {
+    border: 3px ridge rgb(255, 183, 0);
+    border-radius: 10px;
+    background-color: black;
+    width: 300px;
+    font-family: 'Alegreya SC';
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ruleTitle {
+    color: rgb(255, 183, 0);
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.ruleBody {
+    border: 1px solid rgb(138, 146, 143);
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Alegreya SC';
+}
+
+.ruleText {
+    font-size: 16px;
+}

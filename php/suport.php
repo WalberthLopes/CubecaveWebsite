@@ -6,14 +6,15 @@
                 <div class="errorContainer">
                     
                 <?php
+                    if (!isset($_SESSION["useruid"])) {
+                        header("location: /login.php?error=notloggedin");
+                        exit ();
+                    }
                     if (isset($_GET["error"])) {
                         if ($_GET["error"] == "emptyinput") {
                             echo "<p>Preencha todos os campos.</p>";
                         }
-                        else if ($_GET["error"]  == "notlogedin") {
-                            echo "<p>Você precisa estar logado para abrir um chamado.</p>";
-                        }
-                        else if ($_GET["error" == "mailsend"]) {
+                        else if ($_GET["error"] == "mailsend") {
                             echo "<p>Sua mensagem foi enviada!</p>";
                         }
                     }
@@ -31,7 +32,7 @@
                     <br>
                     <input type="text" name="subject" placeholder="Assunto" class="suportFormInput">
                     <br>
-                    <textarea name="message" cols="30" rows="10" class="suportFormText">Descreva seu problema...</textarea>
+                    <textarea name="message" cols="30" rows="10" class="suportFormText" utf8_decode()>Descreva seu problema...</textarea>
                     <button type="submit" name="submit" class="suportFormButton">ENVIAR</button>
                 </form>
             </div>

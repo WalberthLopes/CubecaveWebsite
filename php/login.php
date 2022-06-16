@@ -10,8 +10,11 @@
                         if ($_GET["error"] == "emptyinput") {
                             echo "<p>Preencha todos os campos.</p>";
                         }
-                        else if ($_GET["error" == "wronglogin"]) {
+                        else if ($_GET["error"] == "wronglogin") {
                             echo "<p>As informações estão incorretas.</p>";
+                        }
+                        else if ($_GET["error"] == "notloggedin") {
+                            echo "<p>Permaneça logado para utilizar o suporte.</p>";
                         }
                     }
                 ?>
@@ -25,6 +28,7 @@
                     <br>
                     <input type="password" name="pwd" class="loginBoxInput" placeholder="Senha">
                     <button class="loginBoxButton" type="submit" name="submit">Entrar</button>
+                    <p><a href="/login.php">Criar conta</a></p>
                 </form>
             </div>
         </div>
